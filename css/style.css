@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Yellowtail&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "IBM Plex Sans", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* nav part start */
+.nav_body ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff !important;
+}
+.nav-link.active {
+  color: #ff9600 !important;
+}
+
+/* nav part end */
+
+/* banner part start */
+#banner {
+  background: url(../img/banner.png) no-repeat center / cover;
+  padding: 138px 0 500px;
+  position: relative;
+}
+.ban_body h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #fff;
+}
+.ban_bottm {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -20px;
+}
+.ban_bottm img {
+  width: 100%;
+}
+/* banner part end */
+
+/* join part start */
+#join {
+  padding: 50px 0;
+}
+.join_txt h3 {
+  font-family: "Yellowtail", serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #14b9f1;
+  padding-bottom: 16px !important;
+  padding-top: 29px !important;
+}
+.join_txt h2 {
+  font-size: 54px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 77px !important;
+  position: relative;
+}
+.join_txt h2::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 80px;
+  background-color: #000;
+  left: 0;
+  bottom: -29px;
+}
+.join_txt p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  padding-bottom: 35px !important;
+  padding-right: 150px !important;
+}
+.join_sub_txt p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  padding-right: 170px !important;
+  padding-left: 25px !important;
+  padding-bottom: 46px !important;
+}
+.join_txt a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 41px;
+  background-color: #ff9600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.join_imgr img {
+  padding-top: 50px !important;
+}
+.stats {
+  margin-top: 110px !important;
+}
+.stat_box {
+  background-color: #f4f2bf;
+  border: none !important;
+  padding: 14px 0;
+}
+.stat_box h5 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #000;
+}
+.stat_box p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+}
+/* join part end */
+
+/* activities part start */
+#activities {
+  padding: 120px 0 177px;
+  background-color: #22647a;
+}
+.acti_head h3 {
+  font-family: "Yellowtail", serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #ff9600;
+  padding-bottom: 20px !important;
+}
+.acti_head h2 {
+  font-size: 54px;
+  font-weight: bold;
+  color: #f1dddd;
+  position: relative;
+}
+.acti_head h2::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 80px;
+  background-color: #f0e7e7;
+  left: 0;
+  bottom: -34px;
+}
+.acti_txt p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #f4eeee;
+}
+/* activities part end */
+
+/* sports part start */
+#sports {
+  padding: 98px 0;
+}
+.sports_body h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 22px !important;
+  padding-bottom: 11px !important;
+}
+.sports_body h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.spo_bike h3 {
+  color: #ff9600;
+}
+.spo_bike h4 {
+  color: #f5f2f2;
+}
+.spo_snow h3 {
+  color: #a69393;
+}
+.spo_snow h4 {
+  color: #f5f2f2;
+}
+.spo_surfing h3 {
+  color: #1e1c1c;
+}
+.spo_surfing h4 {
+  color: #f5f2f2;
+}
+.spo_skate h3 {
+  color: #f5f2f2;
+}
+.spo_skate h4 {
+  color: #f5f2f2;
+}
+.spo_skiing h3 {
+  color: #161414;
+}
+.spo_skiing h4 {
+  color: #f5f2f2;
+}
+.spo_ice h3 {
+  color: #f5f2f2;
+}
+.spo_ice h4 {
+  color: #f5f2f2;
+}
+.sports_bottom h2 {
+  font-family: "Arizonia", serif;
+  font-size: 150px;
+  font-weight: normal;
+  color: #000;
+  padding-top: 20px !important;
+}
+/* sports part end */
